@@ -86,6 +86,7 @@ rm -r practice
 
 -5-4. 증거
 터미널 실행 화면: docs/screenshots/terminal-basic.png
+/Users/rlawlsdn01196597/dev-workstation/docs/screenshots/terminal-basic.jpeg
 
 ##  6. 권한 실습
 6-1. 실습 목적
