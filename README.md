@@ -250,8 +250,8 @@ http://localhost:8080
 
 12-2. 실행 명령
 
-docker run -d --name my-nginx-bind \<br>
--p8081:80 \ # 호스트의 8081 포트를 컨테이너의 80 포트에 연결. <br>
+docker run -d --name my-nginx-bind \ <br>
+-p 8081:80 \ # 호스트의 8081 포트를 컨테이너의 80 포트에 연결. <br>
 -v "$(pwd)/app:/usr/share/nginx/html" \ #app 디렉토리를 컨테이너 안의 /usr/share/nginx/html 와 연결. <br>
   nginx:alpine
 
@@ -299,7 +299,7 @@ exit<br>
 
 13-4. 증거
 - 볼륨 생성 화면: ![volume-create](docs/screenshots/volume-create.jpeg)
-- 삭제 전 데이터 확인: ![volume-before](docs/screenshots/volume-before.jpeg)
+- 삭제 전 데이터 확인: ![volume-befor](docs/screenshots/volume-befor.jpeg)
 - 삭제 후 데이터 확인: ![volume-after](docs/screenshots/volume-after.jpeg)
 
 ### 14. Git/GitHub/VSCode 연동
