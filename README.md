@@ -85,7 +85,7 @@ rm -r practice<br>
 - `cp`, `mv`, `rm` 명령으로 복사, 이동/이름 변경, 삭제를 수행하였다.  
 
 -5-4. 증거
-터미널 실행 화면: ![terminal-basic](docs/screenshots/terminal-basic.png)
+터미널 실행 화면: ![terminal-basic](docs/screenshots/terminal-basic.jpeg)
 
 ##  6. 권한 실습
 6-1. 실습 목적
@@ -106,7 +106,7 @@ ls -l
 - 디렉토리에서 `x` 권한은 해당 디렉토리에 접근하거나 내부로 이동할 수 있다는 의미를 가진다.
 
 6-4. 중거
-권한 변경 전/후 화면: ![permission-before-after](docs/screenshots/permission-before-after.png)
+권한 변경 전/후 화면: ![permission-before-after](docs/screenshots/permission-before-after.jpeg)
 
 ## 7. Docker 설치 및 기본 점검
 7-1. 실습 목적
@@ -299,8 +299,8 @@ exit<br>
 
 13-4. 증거
 - 볼륨 생성 화면: ![volume-create](docs/screenshots/volume-create.jpeg)
-- 삭제 전 데이터 확인: ![volume-before-delete](docs/screenshots/volume-before-delete.jpeg)
-- 삭제 후 데이터 확인: ![volume-after-delete](docs/screenshots/volume-after-delete.jpeg)
+- 삭제 전 데이터 확인: ![volume-before](docs/screenshots/volume-before.jpeg)
+- 삭제 후 데이터 확인: ![volume-after](docs/screenshots/volume-after.jpeg)
 
 ### 14. Git/GitHub/VSCode 연동
 
